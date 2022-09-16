@@ -1,0 +1,11 @@
+Description: 
+
+Python code, written by Vincent Hochstein. Trims the initial text file for processing
+and stores the entire text in an array, separating elements based on wherever spaces occur.
+Generates the three text files for further visual processing by other group members using a
+series of other arrays storing all words, unique words, and word frequency by cross referencing
+one to the other.
+
+Angela Lui did parts 2 and 3. In part 2 we utilized allwords.txt to create a word cloud on the word cloud website. Loadstrings was utilized to read a file and pull strings from the file to create a string array. Createfont was used to create a font for the file. Textfont was used to change the font of the text. textAlign was used to align the text to the left side. Both a for and while loop was used to go through the string array and to ensure that the program stopped when the end of the screen is reached. TextWidth was used get the width of the given word. A break was used to break out of the loop. The colors are based on length size: strings < 7 are green, strings between 7-9 are whiteish tan, strings > 9 are brownish tan. These are based on the color pallet of the main character Emily. The text font was influenced by the peacock edition text font. The font file was not included into the a3_novelvisualization directory because a default font was used. 
+
+Dayton Thompson did part 4. This program relies on Java and the Processing framework. It visualizes the relationship between word frequency and the numbers that have those frequencies. It uses the wordfrequency.txt file, but it could be adapted for other similarly structure files as well.
