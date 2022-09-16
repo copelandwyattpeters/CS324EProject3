@@ -1,5 +1,0 @@
-My group members were Dayton Thompson and Vincent Hochstein. 
-
-Overall, everyone communicated well. I got connected with Vincent on Tuesday and got connected to Dayton on Friday. Due to the inability to communicate earlier and our differing work timelines, it was difficult to get the assignment under way. However, I believe now that we have the time and have gotten to know each other it will be easier to get things done. Everyone communicates well and got their parts done. 
-
-Vincent did the first part where a python file was created to extract text files from the overall text. Dayton created the word frequency pde file which create a visual histogram for the frequency of different words. 
