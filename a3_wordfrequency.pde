@@ -11,7 +11,9 @@ void draw(){
   line(width / 2, 0, width / 2, height); // vertical line
   line(0, 0, width, 0); // Top horizontal line
   for (int i = 0; i < lines.length; i++){ // Let's draw our bricks
-    String[] line = lines[i].split(":");
+    for (int j = 20; j <= 255; j = j+30) {
+      fill(j,40,40);}
+      String[] line = lines[i].split(":");
     drawBrick(line, i);
   }
   noLoop();
