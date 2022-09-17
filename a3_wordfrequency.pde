@@ -1,7 +1,7 @@
 String[] lines;
 // Setups up template.
 void setup(){
-  surface.setResizable(true);
+  surface.setResizable(false);
   lines = loadStrings("wordfrequency.txt");
   int sizeVal = 500;
   surface.setSize(sizeVal, sizeVal);
