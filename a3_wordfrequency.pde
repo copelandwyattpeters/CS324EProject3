@@ -3,8 +3,7 @@ String[] lines;
 void setup(){
   surface.setResizable(false);
   lines = loadStrings("wordfrequency.txt");
-  int sizeVal = 500;
-  surface.setSize(sizeVal, sizeVal);
+  size(750,750;
   stroke(10);
 }
 
