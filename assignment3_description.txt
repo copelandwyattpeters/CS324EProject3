@@ -21,3 +21,7 @@ the assignment as well as the online word cloud. For the online word cloud, a co
 with the Dracula theme as the overall shape of the word cloud and font choices were chosen based on keeping
 up with a theme that looks old fashioned and a little spooky. Color choices were red, light red, black, and
 beige to represent a classical vampire color palette. 
+
+Benjamin Chang worked on the word frequency visualization and tried to do a chloropleth map to utilize circle sizes 
+to demonstrate the frequency. He couldn’t get that to work, so he did the bar chart and added a red fill color 
+to reflect the Dracula book chosen. 
