@@ -16,4 +16,8 @@ fitting the Dracula theme. In order to add the words, while the y location of th
 height minus some padding amount, it is determined if the word fits within the width, and it it doesn't a 
 new line is made and it is added there.
 
-** add individual contribution description
+Wyatt Peters worked on the python file to generate the other text files necessary for the other parts of
+the assignment as well as the online word cloud. For the online word cloud, a coffin was chosen to keep up 
+with the Dracula theme as the overall shape of the word cloud and font choices were chosen based on keeping
+up with a theme that looks old fashioned and a little spooky. Color choices were red, light red, black, and
+beige to represent a classical vampire color palette. 
