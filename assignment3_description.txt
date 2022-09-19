@@ -1,11 +1,19 @@
 Description: 
+This program incorporates a free novel .txt file (available throough Project Gutenberg), reading the file and creating
+files to be used in novel visualization and word frequency programs, as well as processed through an online word cloud
+creator to create a png file that is also present in this project.
 
-Python code, written by Vincent Hochstein. Trims the initial text file for processing
-and stores the entire text in an array, separating elements based on wherever spaces occur.
-Generates the three text files for further visual processing by other group members using a
-series of other arrays storing all words, unique words, and word frequency by cross referencing
-one to the other.
+** add description
 
-Angela Lui did parts 2 and 3. In part 2 we utilized allwords.txt to create a word cloud on the word cloud website. Loadstrings was utilized to read a file and pull strings from the file to create a string array. Createfont was used to create a font for the file. Textfont was used to change the font of the text. textAlign was used to align the text to the left side. Both a for and while loop was used to go through the string array and to ensure that the program stopped when the end of the screen is reached. TextWidth was used get the width of the given word. A break was used to break out of the loop. The colors are based on length size: strings < 7 are green, strings between 7-9 are whiteish tan, strings > 9 are brownish tan. These are based on the color pallet of the main character Emily. The text font was influenced by the peacock edition text font. The font file was not included into the a3_novelvisualization directory because a default font was used. 
+Anakaren Salinas worked on creating the novel visualization processing file, which consists of as many 
+random words from uniquewords as possible (while still being legible and having margins) being drawn on 
+the screen. The colors are inspired by the gothic colors of dracula, and consist of a bright blood red,
+a more neutral dark maroon, and a light cream (inspired by very pale vampire skin) on a black background.
+In order to make the blood red stand out and have more contrast, only the words with less than 5 letters
+were filled with red, with the more neutral colors making up the rest of the longer words. The font chosen,
+Trattatello (.ttf included in a3_novelvisualization) is a font that looks old fashioned and a bit gothic,
+fitting the Dracula theme. In order to add the words, while the y location of the words is less than the
+height minus some padding amount, it is determined if the word fits within the width, and it it doesn't a 
+new line is made and it is added there.
 
-Dayton Thompson did part 4. This program relies on Java and the Processing framework. It visualizes the relationship between word frequency and the numbers that have those frequencies. It uses the wordfrequency.txt file, but it could be adapted for other similarly structure files as well.
+** add individual contribution description

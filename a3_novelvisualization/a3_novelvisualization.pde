@@ -38,6 +38,8 @@ void draw(){
         word_y += 50;
         if(word_y < height - 20){
           text(uniquewords[index], word_x, word_y);
+        } else {
+          break;
         }
       }
       word_x += textWidth(uniquewords[index]); 
